@@ -1,0 +1,33 @@
+
+
+@import '../../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss';
+@import '../../bower_components/neat/app/assets/stylesheets/_neat.scss';
+
+
+ html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.main:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.content-wrap {
+  display: inline-block;
+  vertical-align: middle;
+}
